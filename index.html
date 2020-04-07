@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> conversor de temperatura</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <div class="proyectos">
+        <div class="conversor">
+            <input type="number" value="escribe la temperatura" id="temperatura">
+            <select name="temp-escala" id="temp-escala">
+                <option value="1">Celsius</option>
+                <option value="2">Fahrenheit</option>
+            </select>
+            <button id="convertir" >convertir</button>
+            <p class="resultado" id="temp-convertida">resultado</p>
+        </div>
+        <div class="cadenaInveras">
+            <input type="text" id="cadena" placeholder="Escribe tu texto">
+            <p class="resultado" id="cadenareversa">escrito al reves</p>
+        </div>
+        <div class="factorial">
+            <input type="number" id="numeroF" placeholder="Escribe el numero">
+            <button id="factorizar" >Factorizar</button>
+            <p class="resultado" id="numFactorial" value="tu numero"> La factorización es</p>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
